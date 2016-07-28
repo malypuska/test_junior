@@ -1,0 +1,28 @@
+.ingredient-block{
+    display: inline-table;
+    vertical-align: top;
+    width: 49%;
+}
+.ingredient-item {
+    display: block;
+    width: 200px;
+    border: 1px solid #000;
+    padding: 2px;
+    margin-bottom: 2px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.view-recipe-ingredient {
+    padding-left: 10px;
+}
+
+.view-recipe-ingredient.red {
+    color: #f00;
+}
+
+.view-recipe-ingredient.green {
+    color: #0a0;
+}
